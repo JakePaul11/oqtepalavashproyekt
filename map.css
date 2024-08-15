@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#map {
+    height: 700px;
+    width: 100%;
+}
+
+button {
+    margin-right: 30px;
+    width: 200px;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    margin-bottom: 20px;
+}

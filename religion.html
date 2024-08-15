@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Choice Map</title>  
+    <link rel="stylesheet" href="religion.css">
+</head>
+<body>
+    <a href="menu.html">
+        <button>Back</button>
+    </a>
+ 
+    <div id="map">
+        <div class="location" id="beach" onclick="choosePlace('Toshkent')">Toshkent</div>
+        <div class="location" id="mountain" onclick="choosePlace('Buharo')">Buharo</div>
+        <div class="location" id="city" onclick="choosePlace('Samarqand')">Samarqand</div>
+        <div class="location" id="farm" onclick="choosePlace('Toshkent shahri')">Toshkent shahri</div>
+        <div class="location" id="castle" onclick="choosePlace('Qashqadaryo')">Qashqadaryo</div>
+        <div class="location" id="mountain" onclick="choosePlace('Surxandaryo')">Surxandaryo</div>
+    </div>
+    <div id="choice">
+        <p>You have chosen: <span id="selected-place">None</span></p>
+    </div>
+    <script src="religion.js"></script>
+</body>
+</html>

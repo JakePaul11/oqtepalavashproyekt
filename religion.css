@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+#map {
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+    gap: 10px;
+}
+
+.location {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.location:hover {
+    background-color: #45a049;
+}
+
+#choice {
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+button {
+    margin-right: 30px;
+    width: 200px;
+    padding: 10px;
+    background-color: red;
+    color: white;
+}

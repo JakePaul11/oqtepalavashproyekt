@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.d1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.md1 img {
+    width: 100px;
+}
+
+.md2 {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.md2 ul {
+    display: flex;
+    gap: 40px;
+}
+
+.d3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: grey;
+}
+
+.d3 ul {
+    color: grey;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    width: 190px;
+    flex-wrap: wrap;
+}
+
+header {
+    margin-bottom: 100px;
+}
+
+footer {
+    margin-top: 100px;
+}
+
+main {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+.h11 {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.but10 {
+   width: 160px;
+   padding: 10px;
+}
+
+button {
+    width: 150px;
+    padding: 20px;
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+}
+
+button:hover {
+    border: 2px solid orange;
+    border-radius: 10px;
+}
+
+button:active {
+    background-color: orange;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.row {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    width: 80%;
+}
+
+.card {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.card-img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 16px;
+}
+
+.card-title {
+    font-size: 1.5em;
+    margin: 0;
+    color: #333;
+}
+
+.card-price {
+    font-size: 1.2em;
+    color: #e74c3c;
+}
